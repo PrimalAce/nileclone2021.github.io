@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>201103013 Ekene A Nwankwo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body >
+    
+    <span class="border border-2" style="display: flex; justify-content: center; ">
+        <img src="https://portal.jamb.gov.ng/efacility_/assets/admin/img/logo_big.png" alt="">
+    </span>
+    <div class="overflow-auto"></div>
+    <div style="display: flex; justify-content: center; padding-top: 30px; width: 100%; border-radius: 7px;" >
+        
+        <form action="">
+
+            <p style="display: flex; justify-content: center;"><h4 style="display: flex; justify-content: center;">Jamb Application Form</h4></p>
+            <br>
+
+            <label for="Firstname" class="form-label">First name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+            <label for="Lastname" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+            <!-- Original input code.
+
+            <label for="firstname">First Name:</label>
+            <input type="text" required>
+
+    
+            <label for="lastname">Last Name:</label>
+            <input type="text" required>
+            -->
+            <br>
+            <br>
+
+            <label for="DOB" class="form-label">Date of birth</label>
+            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+            <br>
+
+            <div style="display: flex; justify-content: space-between;">
+
+                <label for="gender" class="form-label">Gender</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Female
+                    </label>
+                  </div>
+            
+            </div>
+
+            
+    <!-- Original code
+        <label for="dob">Date of Birth:</label>
+            <input type="date" required>
+    
+            <label for="gender">Gender: </label>
+            <input type="radio" name="male">Male <input type="radio" name="female"> Female
+    -->
+            
+            <br>
+            
+    
+            <label for=" Nation" class="form-label">Nationality</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Nigeria</option>
+                <option value="1">South Africa</option>
+                <option value="2">Ghana</option>
+                <option value="3">Cameroon</option>
+              </select>
+
+              <br>
+            
+              <!-- Original code.
+                 <label for="nationality">Nationalilty:</label>
+            <select name="nationality" id="nation" required>
+                <option value="nigeria"></option>
+                <option value="south africa"></option>
+                <option value="ghana"></option>
+                <option value="cameroon"></option>
+                <option value="algeria">Algeria</option>
+            </select> 
+              -->
+            
+    
+            <label for="phone" class="form-label">Phone Number:</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <br>
+            <br>
+
+
+            <label for="id" class="form-label">JAMB ID:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <br>
+    <!-- Original code
+        <label for="id">JAMB ID:</label>
+            <input type="number" required>
+    
+            <label for="email">Email: </label>
+            <input type="email" required valid> 
+    -->
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <br>
+            <br>
+
+            <!-- Original code
+                <input type="text" value="Mathematics" disabled>
+            <input type="text" placeholder="Grade">
+            <br>
+            <input type="text" value="English" disabled>
+            <input type="text" placeholder="Grade">
+            <br>
+            <select name="subject" id="sub" required>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+                <option value="economics">Economics</option>
+            </select>
+            <input type="text" placeholder="Grade">
+            <br>
+            <select name="subject" id="sub" required>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+                <option value="economics">Economics</option>
+            </select>
+            <input type="text" placeholder="Grade">
+            -->
+    
+            <div style="display: flex; justify-content: space-between;" >
+              <label  for="Mathematics" class="form-label">Mathematics:</label>
+              <input style="margin-left: 10px;" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grade">
+            <br>
+              <label style="padding-left: 20px;" for="English" class="form-label">English:</label>
+              <input style="margin-left: 10px;" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grade">
+
+            </div>
+           
+            <br>
+            <!-- Original code
+<select name="subject" id="sub" required>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+                <option value="economics">Economics</option>
+            </select>
+            <input type="text" placeholder="Grade">
+
+            -->
+           
+            <div style="display: flex; justify-content: space-between;">
+
+                <select style="padding-left: 20px;" class="form-select" aria-label="Default select example">
+                <option selected>Physics</option>
+                <option value="1">Chemistry</option>
+                <option value="2">Biology</option>
+                <option value="3">Economics</option>
+              </select>
+              <input style="margin-left: 10px;" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grade">
+            </div>
+            <br>
+            <div style="display: flex; justify-content: space-between;">
+                
+                <select style="padding-left: 20px;" class="form-select" aria-label="Default select example">
+                  <option selected>Physics</option>
+                  <option value="1">Chemistry</option>
+                  <option value="2">Biology</option>
+                  <option value="3">Economics</option>
+                </select>
+                <input style="margin-left: 10px;" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grade">
+            </div>
+
+            
+
+            
+            <br>
+            <br>
+            <br>
+            <!--
+               <input type="submit"> 
+            -->
+            <button type="submit" class="btn btn-primary">Submit</button>  
+            <br>
+            <br>          
+        </form>
+    </div>
+    <div style="display: flex; justify-content: center; background-color: rgb(27, 27, 27); color: white; padding: 2px,0,2px,0;">
+     <p style="padding-top: 2px;">2021 c Joint Admissions and Matriculation Board (JAMB)</p> 
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous">
+</script>
+
+</body>
+</html>

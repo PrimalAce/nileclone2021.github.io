@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Manrope;
+}
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(56, 106, 150);
+    text-decoration: none;
+}
+
+.nav_links{
+    color: black;
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition : all 0.3s ease 0s ;
+}
+
+.nav_links li a :hover{
+   color: aqua;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition : all 0.3s ease 0s ;
+}
+
+button :hover{
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+
+.logo{
+    cursor: pointer;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 10px;
+}
+
+
+.d1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d2{
+    background-color: #1c4da1;
+    display: flex;
+    justify-content: center;
+    padding:15px ;
+    color: white;
+}
+
+.d2 p{
+    background-color:#1c4da1 ;
+    color: white;
+}
+
+.carousel-indicators{
+    background: transparent;
+}
+
+.card-body{
+    background-color: #1c4da1;
+    padding:  30px;
+    
+}
+
+
+
+.card-body h5{
+    background-color: #1c4da1;
+    color: white;
+}
+
+.card-body p{
+    background-color: #1c4da1;
+    color: white;
+    text-align: center;
+}
+
+.card-body a{
+    display: flex;
+    justify-content: center;
+}
+
+.d4{
+    display: flex;
+    justify-content: center;
+    font-family: Gilda Display;
+}
+
+.d5{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.profile-area{
+    padding: 80px 0;
+}
+
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0,5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.img1 img{
+    position: relative;
+    display: block;
+    margin-top: -80px;
+    margin-left: auto;
+    border: 7px solid #ftf;
+    margin right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.d6{
+    
+}
+
+.d7{
+    background-color: white;
+    align-content: center;
+}
+
+.d8{
+    display: flex;
+    justify-content: center;
+}
+
+.d9{
+display:flex;
+justify-content: space-between;
+padding-left: 40px;
+}
+.d10{
+    display: flex;
+    justify-content: space-around;
+}
+
+.d11{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c4da1;
+}
